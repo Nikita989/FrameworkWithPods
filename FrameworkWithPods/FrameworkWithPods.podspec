@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "9.0"
 
-  spec.source       = { :git => "https://github.com/Nikita989/FrameworkWithPods.git", :tag => "2.0.0" }
+  spec.source       = { :git => "https://github.com/Nikita989/FrameworkWithPods.git", :tag => spec.version.to_s  }
 
   spec.source_files  = "FrameworkWithPods/**/*.swift"
 
