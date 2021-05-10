@@ -22,5 +22,8 @@ Pod::Spec.new do |spec|
   #spec.exclude_files = "FrameworkWithPods/FrameworkWithPods/*.plist"
 
   spec.dependency "AFNetworking", "~> 4.0"
+  spec.dependency "SDWebImage"
+
+
 
 end
