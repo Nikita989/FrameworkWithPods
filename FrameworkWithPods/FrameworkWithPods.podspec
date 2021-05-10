@@ -19,6 +19,8 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "FrameworkWithPods/**/*"
 
+  #spec.exclude_files = "FrameworkWithPods/FrameworkWithPods/*.plist"
+
   spec.dependency "AFNetworking", "~> 4.0"
 
 end

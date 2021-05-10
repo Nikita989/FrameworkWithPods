@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AFNetworking
 
 public class Service{
     
