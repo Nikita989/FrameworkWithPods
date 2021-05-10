@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FrameworkWithPods (1.0.0):
+    - AFNetworking (~> 4.0)
+
+DEPENDENCIES:
+  - FrameworkWithPods (from `../FrameworkWithPods`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  FrameworkWithPods:
+    :path: "../FrameworkWithPods"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FrameworkWithPods: 481183ce094366ee2a6383a7c8a9dee5ecdfcaaa
+
+PODFILE CHECKSUM: 95c0efa714d8a19e4a5cf0bb18829805b49ee7ce
+
+COCOAPODS: 1.9.1
