@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Nikita989/FrameworkWithPods.git", :tag => "1.0.0" }
 
-  spec.source_files  = "FrameworkWithPods/**/*"
+  spec.source_files  = "FrameworkWithPods/**/*.swift"
 
   #spec.exclude_files = "FrameworkWithPods/FrameworkWithPods/*.plist"
 
