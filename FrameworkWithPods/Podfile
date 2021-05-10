@@ -6,6 +6,7 @@ target 'FrameworkWithPods' do
   use_frameworks!
   
   pod 'AFNetworking', '~> 4.0'
+  pod 'SDWebImage'
 
   # Pods for FrameworkWithPods
 
