@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "FrameworkWithPods/**/*"
 
-  spec.dependency "AFNetworking"
+  spec.dependency "AFNetworking", "~> 4.0"
 
 end
